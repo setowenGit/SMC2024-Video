@@ -1,4 +1,4 @@
-# SMC2024-Video
+# Video
 This repository contains the supplementary video of the SMC2024 submission. Thanks for watching!
 
 If you want to watch a HD version, please click [here](https://www.youtube.com/watch?v=e41skz6KWK0).
