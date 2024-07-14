@@ -48,7 +48,7 @@ for n=1:nbSamples
     end
 end
 for f = 1:modelPD.nbFrames
-    x(:,:,f) = [reshape(X(1,1,:,f),1,nbData*nbSamples); reshape(X(2,2,:,f),1,nbData*nbSamples);reshape(X(3,3,:,f),1,nbData*nbSamples);symmat2vec(X(4:6,4:6,:,f))]; %symmat2vec为用户自定义的，基于Mandel标记用于将matrix转为vector
+    x(:,:,f) = [reshape(X(1,1,:,f),1,nbData*nbSamples); reshape(X(2,2,:,f),1,nbData*nbSamples);reshape(X(3,3,:,f),1,nbData*nbSamples);symmat2vec(X(4:6,4:6,:,f))];
 end
 %% Plot demonstration
 is3Dplot = false;
